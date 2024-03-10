@@ -1,3 +1,5 @@
+// 1
+
 fun main() {
 
 
@@ -30,4 +32,40 @@ fun main() {
         '/' -> print("${listFirstAndSecond[0] / listFirstAndSecond[1]}")
     }
 
+}
+
+
+// 2
+
+fun main() {
+    val input = readLine() ?: return
+
+    val operatorIndex = input.indexOfFirst { !it.isDigit() }
+    if (operatorIndex == -1 || operatorIndex == input.lastIndex) {
+        println("Invalid input")
+        return
+    }
+
+    val firstNumber = input.substring(0, operatorIndex).toIntOrNull()
+    val secondNumber = input.substring(operatorIndex + 1).toIntOrNull()
+    val operator = input[operatorIndex]
+
+    if (firstNumber == null || secondNumber == null) {
+        println("Invalid input")
+        return
+    }
+
+    val result = when (operator) {
+        '+' -> firstNumber + secondNumber
+        '-' -> firstNumber - secondNumber
+        '*' -> firstNumber * secondNumber
+        '/' -> if (secondNumber != 0) firstNumber / secondNumber else null
+        else -> null
+    }
+
+    if (result != null) {
+        println("$result")
+    } else {
+        println("Cannot divide by zero")
+    }
 }
