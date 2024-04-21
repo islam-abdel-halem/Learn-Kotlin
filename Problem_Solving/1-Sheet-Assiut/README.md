@@ -5,10 +5,10 @@ Welcome to the Assiut University Training repository for newcomers in Kotlin pro
 ## Table of Contents
 
 1. [Sheet #1 - Data type - Conditions](1-Sheet1_Datatype-Conditions/)
-   - [Contest #1](2-Contest%20#1/)
-2. [Sheet #2 - Loops](3-Sheet%20#2%20(Loops)/)
-   - [Contest #2](4-Contest%20#2/)
-3. [Sheet #3 - Arrays](5-Sheet%20#3%20(Arrays)/)
+   - [Contest #1](2-Contest1/)
+2. [Sheet #2 - Loops](3-Sheet2-Loops/)
+   - [Contest #2](4-Contest2/)
+3. [Sheet #3 - Arrays](5-Sheet3-Arrays/)
    - [Contest #3.1](6-Contest%20#3.1/)
 4. [Sheet #4 - Strings](7-Sheet%20#4%20(Strings)/)
 5. [Sheet #5 - Functions](8-Sheet%20#5%20(Functions)/)
