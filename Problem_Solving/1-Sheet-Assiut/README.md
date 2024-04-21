@@ -4,7 +4,7 @@ Welcome to the Assiut University Training repository for newcomers in Kotlin pro
 
 ## Table of Contents
 
-1. [Sheet #1 - Data type - Conditions](1-Sheet#1(Datatype-Conditions)/)
+1. [Sheet #1 - Data type - Conditions](1-Sheet1_Datatype-Conditions/)
    - [Contest #1](2-Contest%20#1/)
 2. [Sheet #2 - Loops](3-Sheet%20#2%20(Loops)/)
    - [Contest #2](4-Contest%20#2/)
