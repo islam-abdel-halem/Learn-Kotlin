@@ -1,3 +1,3 @@
-# Learn-Kotlin - Sheet #1 (Data type - Conditions)
+# Learn-Kotlin - Contest #1
 
-[Sheet #1 (Data type - Conditions)🔗](https://codeforces.com/group/MWSDmqGsZm/contest/219158)
+[Contest #1🔗](https://codeforces.com/group/MWSDmqGsZm/contest/326175)
