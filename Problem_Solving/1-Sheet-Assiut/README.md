@@ -3,6 +3,7 @@
 Welcome to the Assiut University Training repository for newcomers in Kotlin programming language. This repository is designed to help you improve your Kotlin programming skills through the solution of various programming problems.
 
 ## Table of Contents
+1. [Sheet #1 - Data type - Conditions](Problem_Solving/1-Sheet-Assiut/1-Sheet #1 (Data type - Conditions))
 1. [Sheet #1 - Data type - Conditions](1-Sheet#1(Datatype-Conditions)/)
    - [Contest #1](2-Contest%20#1/)
 2. [Sheet #2 - Loops](3-Sheet%20#2%20(Loops)/)
