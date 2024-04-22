@@ -1,4 +1,3 @@
-
 fun main() {
     val fruits1 = listOf(
         Fruits("Apple"),
@@ -16,11 +15,10 @@ fun main() {
         Fruits("Mango"),
         Fruits("Mango"),
 
-    )
-
+        )
 
     val allFruits = fruits1.union(fruits2).union(listOf(Fruits("Mango")))
-    println(allFruits)
+    println(allFruits) // [Fruits(name=Apple), Fruits(name=Orange), Fruits(name=Banana), Fruits(name=Avocado), Fruits(name=Blueberries), Fruits(name=Lemon), Fruits(name=Mango)]
 
 }
 

@@ -5,8 +5,8 @@ fun main() {
     println("===================")
 
     val users = listOf(
-        User("Mohamed","Tamer"),
-        User("Mohab","Tamer")
+        User("Islam","Mohamed"),
+        User("Ahmed","Mohamed")
     )
     users.forEach { println(it) }
     println("===================")
@@ -21,4 +21,12 @@ fun main() {
     val stuff = if (name == null) emptyList() else listOf(name)
     println(stuff)
 
+}
+
+class User(var fristName: String, var lastName: String) {
+    var fullName = "$fristName $lastName"
+
+    override fun toString(): String {
+        return fullName
+    }
 }

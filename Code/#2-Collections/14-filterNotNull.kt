@@ -1,11 +1,7 @@
-package collections
-
 fun main() {
-    //requireNotNull()
-
-    var name:String? = null
-    val length = requireNotNull(name,{"The name should not be null, but it was"}).length
-    println(length)
-
+    //filterNotNull()
+    val names = listOf("Islam", "Mohamed", "Ali", null, "Max", null)
+    val test = names.filterNotNull()
+    println(test) //[Islam, Mohamed, Ali, Max]
 
 }

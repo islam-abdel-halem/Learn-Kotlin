@@ -1,6 +1,3 @@
-package collections
-
-
 fun main() {
     var items = mutableMapOf(
         "NY" to "New York",
@@ -12,19 +9,17 @@ fun main() {
     )
 
     val result = items.map(::finValue)
-    println(result)
+    println(result) //[null, null, CA=California, FL=Florida, MN=Minnesota, AZ=Arizona]
 
     val result1 = items.mapNotNull(::finValue)
-    println(result1)
-
+    println(result1) //[CA=California, FL=Florida, MN=Minnesota, AZ=Arizona]
 
 }
 
-fun finValue(entry:Map.Entry<String,String>):Map.Entry<String,String>?{
+fun finValue(entry: Map.Entry<String, String>): Map.Entry<String, String>? {
     if (entry.key.startsWith("N")) {
         return null
-    }else{
+    } else {
         return entry
     }
 }
-

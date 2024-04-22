@@ -1,7 +1,7 @@
 
 fun main() {
 
-    val names = listOf("Mohamed", "Tamer", "Ahmed", "Ali", "Osama", "Mohamed")
+    val names = listOf("Islam", "Mohamed", "Ahmed", "Ali", "Osama", "Mohamed")
     val find = names.find { it == "Mohamed" }
     println(find)
     println(find?.length)

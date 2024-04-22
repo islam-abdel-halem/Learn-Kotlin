@@ -24,7 +24,7 @@ fun main() {
 
     println("================================")
 
-    val updateUser = item4.plus(User("Osama","Tamer"))
+    val updateUser = item4.plus(User("Osama","Mohamed"))
     updateUser.forEach { println(it) }
 
     println("================================")

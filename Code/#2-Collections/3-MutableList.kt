@@ -21,8 +21,8 @@ fun main() {
     println("==========================")
 
     val item2 = mutableListOf(
-        User("Mohamed","Tamer"),
-        User("Mohab","Tamer")
+        User("Islam","Mohamed"),
+        User("Ahmed","Mohamed")
     )
     item2.forEach { println(it) }
     println("==========================")
@@ -33,4 +33,12 @@ fun main() {
     item2.forEach { println(it) }
 
 
+}
+
+class User(var fristName: String, var lastName: String) {
+    var fullName = "$fristName $lastName"
+
+    override fun toString(): String {
+        return fullName
+    }
 }

@@ -1,6 +1,6 @@
 
 fun main() {
-    val names = listOf("Mohamed", "Tamer", "Ahmed", "Ali", "Osama", "Mohamed")
+    val names = listOf("Islam", "Mohamed", "Ahmed", "Ali", "Osama", "Mohamed")
     val filter = names.filter { it != "Mohamed" }
     println(filter)
     println("=====================")
