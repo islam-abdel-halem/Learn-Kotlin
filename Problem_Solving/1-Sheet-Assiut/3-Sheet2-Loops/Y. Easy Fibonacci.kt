@@ -1,3 +1,5 @@
+package `Learn-Kotlin`.Problem_Solving.`1-Sheet-Assiut`.`3-Sheet2-Loops`
+/*
 fun fun main() {
     val n = readln().toInt()
 
@@ -20,3 +22,4 @@ fun fun main() {
     }
     
 }
+*/

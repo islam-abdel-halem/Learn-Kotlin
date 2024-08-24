@@ -1,6 +1,6 @@
 // 1
 
-fun main() {
+/*fun main() {
 
 
     var input: String
@@ -32,7 +32,7 @@ fun main() {
         '/' -> print("${listFirstAndSecond[0] / listFirstAndSecond[1]}")
     }
 
-}
+}*/
 
 
 // 2

@@ -1,5 +1,6 @@
 // # App 1
 
+/*
 fun main(){
     println("Enter your Number1 : ")
     val Number1 = readLine()!!.toDouble()
@@ -8,9 +9,8 @@ fun main(){
     val result = Number1 / Number2
     println(result)
     println(result.javaClass.name)
-
-
 }
+*/
 
 
 // # App 2

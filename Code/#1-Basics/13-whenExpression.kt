@@ -51,7 +51,3 @@ enum class AccountType {
     PLATINUM
 }
 
-
-class User(var firstName: String, var lastName: String) {
-
-}

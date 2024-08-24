@@ -111,8 +111,8 @@ for (j in 0..10 step 2) {
 }
 
 //ForEach
-val values = listOf("Koltin","Java","Js","HTML")
-for (it in values) {
+val values2 = listOf("Koltin","Java","Js","HTML")
+for (it in values2) {
     println(it)
 }
 

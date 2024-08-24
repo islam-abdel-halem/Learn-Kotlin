@@ -8,7 +8,7 @@ fun main(){
     // val test = obj as Boolean       // 1
     val test = obj as? Boolean         // 2
     println(test)
-    println(test.javaClass.name)
+    println(test?.javaClass?.name)
 }
 
 fun getStuff(value:String):Any {

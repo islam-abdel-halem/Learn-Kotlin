@@ -1,4 +1,5 @@
 // using valaible 
+/*
 
 fun main() {
     val (num1, num2, num3) = readLine()!!.split(" ").map { it.toInt() }
@@ -13,6 +14,7 @@ fun main() {
 }
 
 
+*/
 
 // using ArrayOf 
 

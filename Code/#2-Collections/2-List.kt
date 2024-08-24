@@ -23,10 +23,3 @@ fun main() {
 
 }
 
-class User(var fristName: String, var lastName: String) {
-    var fullName = "$fristName $lastName"
-
-    override fun toString(): String {
-        return fullName
-    }
-}
