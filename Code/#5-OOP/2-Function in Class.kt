@@ -9,7 +9,7 @@ class A (var firstName:String,var lastName:String){
 }
 
 fun main() {
-    val user = A("Mohamed","Tamer")
-    println(user.fullName())
-    println(user.fullNameLength())
+    val user = A("Islam","Abdel-Halem")
+    println(user.fullName()) //  Islam Abdel-Halem
+    println(user.fullNameLength()) // 17
 }
